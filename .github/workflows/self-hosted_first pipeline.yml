@@ -5,7 +5,12 @@ on:
 
 jobs:
   job-1:
-    runs-on: [self-hosted, Windows, X64]
+    runs-on:
+     labels:
+      - self-hosted
+      - Windows
+      - X64
+
 
     steps:
       - name: Say Hello
