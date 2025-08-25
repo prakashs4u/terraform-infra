@@ -3,4 +3,11 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch    
+      - 'releases/**'
+ 
+ jobs:
+  job-1:
+    runs-on: self-hosted
+    steps:
+    -name: prakash Rock
+     run: echo prakash rock
