@@ -1,0 +1,11 @@
+name: simple-test-pipeline
+
+on:
+  workflow_dispatch:   # manually trigger karne ke liye
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest   # GitHub ka default runner use kar lo (self-hosted ki jarurat nahi)
+    steps:
+      - name: Say Hello
+        run: echo "Hello Prakash, pipeline is running successfully 🎉"
