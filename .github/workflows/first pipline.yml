@@ -6,7 +6,8 @@ on:
 
 jobs:
   job-1:
-    runs-on: [self-hosted, Windows, X64]
+    runs-on: DESKTOP-4GTDHH8
+
     steps:
       - name: Say Hello
         run: echo "Hello Prakash, pipeline is running successfully"
