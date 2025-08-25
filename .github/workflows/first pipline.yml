@@ -6,7 +6,7 @@ on:
 
 jobs:
   job-1:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Say Hello
         run: echo "Hello Prakash, pipeline is running successfully"
