@@ -1,9 +1,7 @@
 name: my first pipline
 on:
-  push:
-    branches:
-      - main
-      - 'releases/**'
+  workflow_dispatch:
+
  
  jobs:
   job-1:
