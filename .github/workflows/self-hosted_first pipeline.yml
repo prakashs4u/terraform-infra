@@ -5,11 +5,8 @@ on:
 
 jobs:
   job-1:
-    runs-on:
-     labels:
-      - self-hosted
-      - Windows
-      - X64
+    runs-on: "self-hosted" 
+     
 
 
     steps:
