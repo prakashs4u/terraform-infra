@@ -8,5 +8,5 @@ jobs:
   job-1:
     runs-on: self-hosted
     steps:
-      - name: prakash Rock
-        run: echo "prakash rock"
+      - name: Say Hello
+        run: echo "Hello Prakash, pipeline is running successfully
