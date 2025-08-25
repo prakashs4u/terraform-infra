@@ -1,0 +1,13 @@
+name: My firsh Github Pipline
+
+on:
+ push:
+  branches:
+    - main
+
+jobs:
+  my_first_job:
+    name: My first job
+
+  
+  
