@@ -1,11 +1,12 @@
-name: my first pipline
+
+name: my first pipeline
+
 on:
   workflow_dispatch:
 
- 
- jobs:
+jobs:
   job-1:
     runs-on: self-hosted
     steps:
-    -name: prakash Rock
-     run: echo prakash rock
+      - name: prakash Rock
+        run: echo "prakash rock"
