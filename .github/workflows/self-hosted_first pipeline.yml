@@ -1,14 +1,11 @@
 name: my first pipeline
-
 on:
   workflow_dispatch:
 
 jobs:
   job-1:
-    runs-on: "self-hosted" 
-     
-
-
+    runs-on:"self-hosted" 
+  
     steps:
       - name: Say Hello
         run: echo "Hello Prakash, pipeline is running successfully"
